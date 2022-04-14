@@ -12,6 +12,17 @@ body {
     background-color: blue;
 }
 
+footer {
+    font-size:2em;
+    padding-top:10vh;
+    color:white;
+    text-align:center;
+    height: 30vh;
+    background-image:url(https://woneninsawa.nl/templates/yootheme/cache/27_Sawa_luchtfotos_Ossip_edit1-7733688e.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 main {
     margin-top: 40px;
 }
@@ -24,6 +35,10 @@ a:hover {
     font-weight: bold;
     color: white;
     text-decoration: white;
+}
+
+a:visited {
+    color: gold;
 }
 
 
@@ -170,6 +185,9 @@ p {
 
     nav{
         margin-left: 28%;
+        display: block;
+        padding: 10px;
+        position: static;
     }
     nav .menu{
         flex-direction: column;
@@ -182,6 +200,13 @@ p {
     .menu ul{
         flex-direction: column;
         justify-content: center;
+    }
+
+    footer {
+        font-size:1.5em;
+        padding-top:10vh;
+        margin-left: 27%;
+        margin-bottom: 10px;
     }
 
     #gekozen {
