@@ -13,11 +13,11 @@ body {
 }
 
 footer {
-    font-size:2em;
-    padding-top:10vh;
+    font-size: 500%;
+    padding-top: 12vh;
     color:white;
     text-align:center;
-    height: 30vh;
+    height: 40vh;
     background-image:url(https://woneninsawa.nl/templates/yootheme/cache/27_Sawa_luchtfotos_Ossip_edit1-7733688e.jpeg);
     background-size: cover;
     background-position: center;
@@ -37,10 +37,13 @@ a:hover {
     text-decoration: white;
 }
 
-a:visited {
+a:link {
     color: gold;
 }
 
+a:visited {
+    color: gold;
+}
 
 nav{
     position: center;
