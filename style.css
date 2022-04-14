@@ -115,7 +115,8 @@ p {
     display: inline-block;
     width: 49%;
     margin: 0 32.85%;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .imagegallery {
